@@ -4,7 +4,7 @@
 This tool provides a programmatic bridge to **IBM Rhapsody 10.0.1** to resolve "Roundtripping" logic errors during C++ Reverse Engineering. By using the Rhapsody Java API, it bypasses the standard UI wizard to directly inject Classes, Attributes, and Operations into the model browser from header files. This code extends the Rhapsody Reverse Engineering tool which can sometimes cause Roundtripping and abruptly end the reverse engineering process.
 
 ## Credits & Contributors
-Developed by the **Embedded Systems Development Team** at Visteon:
+Developed by the **Infra Middleware Team** at Visteon:
 * **H. Reddy** (hreddy2@visteon.com) – Core logic and Rhapsody API integration
 * **P. Parashi** (pparashi@visteon.com) – Technical validation, guide, implementation and testing
 * **D. Gopinath** (dgopina1@visteon.com) – Management and Requirement alignment
