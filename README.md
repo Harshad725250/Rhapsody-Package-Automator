@@ -29,3 +29,7 @@ javac -cp ".;C:\Program Files\IBM\Rhapsody\10.0.1\Share\JavaAPI\rhapsody.jar" Rh
 ### 2. Execute
 
 java -Djava.library.path="C:\Program Files\IBM\Rhapsody\10.0.1\Share\JavaAPI" -cp ".;C:\Program Files\IBM\Rhapsody\10.0.1\Share\JavaAPI\rhapsody.jar" RhapsodyComponentImporter "<Header_Directory_Path>" "<Target_Package_Name>"
+
+If using Powershell or VSCode terminal:
+
+java "-Djava.library.path=C:\Program Files\IBM\Rhapsody\10.0.1\Share\JavaAPI" -cp ".;C:\Program Files\IBM\Rhapsody\10.0.1\Share\JavaAPI\rhapsody.jar" RhapsodyComponentImporter "<Header_Directory_Path>" "<Target_Package_Name>"
